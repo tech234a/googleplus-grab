@@ -1,0 +1,11 @@
+git-core
+libgnutls28-dev
+lua5.1 liblua5.1-0
+liblua5.1-0-dev
+screen
+python-dev
+python-pip
+bzip2
+zlib1g-dev
+flex
+autoconf
