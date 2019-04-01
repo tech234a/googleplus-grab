@@ -1,6 +1,5 @@
 {
   "name": "googleplus-grab",
-  "description": "This app does one little thing, and does it well.",
   "buildpacks": [
   {
       "url": "heroku-community/apt"
@@ -8,5 +7,10 @@
 {
       "url": "heroku/python"
     }
-  ]
+  ],
+  "formation": {
+  "worker": {
+    "quantity": 1,
+    "size": "free"
+  }
 }
