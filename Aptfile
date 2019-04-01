@@ -9,4 +9,4 @@ bzip2
 zlib1g-dev
 flex
 autoconf
-archiveteam/wget-lua:wget-lua
+:archiveteam/wget-lua:wget-lua
