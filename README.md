@@ -1,6 +1,9 @@
 googleplus-grab
 =============
 
+#Heroku Deploy:
+https://heroku.com/deploy?template=https://github.com/tech234a/googleplus-grab/
+
 More information about the archiving project can be found on the ArchiveTeam wiki: [Google+](http://archiveteam.org/index.php?title=Google+)
 
 Setup instructions
