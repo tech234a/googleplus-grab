@@ -1,1 +1,1 @@
-worker: ./run-pipeline pipeline.py --concurrent 2 tech234a
+worker: python3 pipeline.py --concurrent 2 tech234a
