@@ -1,1 +1,1 @@
-worker: export LIBRARY_PATH=/app/.apt/usr/lib/x86_64-linux-gnu:$LIBRARY_PATH && cp -a ~/.apt/usr/lib/x86_64-linux-gnu/. /app/ && cp -a /app/.apt/usr/bin/. /app/ && run-pipeline3 pipeline.py --concurrent 2 heroku-tech234a
+worker: export LIBRARY_PATH=/app/.apt/usr/lib/x86_64-linux-gnu:$LIBRARY_PATH && cp -a ~/.apt/usr/lib/x86_64-linux-gnu/. /app/ && cp -a /app/.apt/usr/bin/. /app/ && export LUA_CPATH="./?.so;/app/.apt/usr/lib/x86_64-linux-gnu/?.so" && run-pipeline3 pipeline.py --concurrent 2 heroku-tech234a
